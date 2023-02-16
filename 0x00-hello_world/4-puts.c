@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * print_text  - prints given tex
+ * main  - prints given tex
  *
  * Return: inputed text
  */
-int print_text(void)
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
