@@ -6,7 +6,7 @@
 * Return: return command
 */
 
-int main()
+int main(void)
 {
 int i;
 for (i = 97; i <= 122; i++)
