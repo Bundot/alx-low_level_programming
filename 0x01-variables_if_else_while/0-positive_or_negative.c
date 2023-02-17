@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main: the main funtion
- *
- * return: the rurn statement
- *
- */
+/**
+* main - 
+*
+* Return: 
+*/
 
 int main(void)
 {
