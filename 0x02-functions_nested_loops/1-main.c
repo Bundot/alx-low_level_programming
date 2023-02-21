@@ -1,1 +1,12 @@
-typedef int make_iso_compilers_happy;
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
