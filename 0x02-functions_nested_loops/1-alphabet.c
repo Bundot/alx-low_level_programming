@@ -1,11 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* main - main function
+*
+* Return: return value
+*/
+
 void print_alphabet(void)
 {
-    for (char c = 'a'; c <= 'z'; c++)
-    {
-        putchar(c);
-    }
-    putchar('\n');
+char smallLetters = 'a';
+while (smallLetters <= 'z')
+{
+putchar(smallLetters);
+smallLetters++;
+}
+putchar('\n');
 }
