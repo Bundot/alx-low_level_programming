@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-* main - main function
-*@c: print value
-
+* _isalpha - main function
+* @c: print value
+*
 * Return: return value
 */
 
