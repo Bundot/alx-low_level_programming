@@ -3,7 +3,8 @@
 
 /**
 * main - main function
-*
+*@c: print value
+
 * Return: return value
 */
 
