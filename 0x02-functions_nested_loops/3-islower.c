@@ -3,6 +3,7 @@
 
 /**
 * _islower - main function
+* @c: the number to print out
 *
 * Return: return value
 */
@@ -11,10 +12,10 @@ int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
-return 1;
+return (1);
 }
 else
 {
-return 0;
+return (0);
 }
 }
