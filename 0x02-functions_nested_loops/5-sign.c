@@ -4,7 +4,7 @@
 
 /**
 * print_sign - main function
-* 
+*
 * @n: variable
 *
 * Return: return value
