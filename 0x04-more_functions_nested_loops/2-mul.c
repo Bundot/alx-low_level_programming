@@ -3,7 +3,8 @@
 
 /**
 * mul - main function
-* @c: print value
+* @a: first number
+* @b: second number
 *
 * Return: return value
 */
