@@ -4,6 +4,8 @@
 /**
 * main - main function
 *
+* @c : variable
+*
 * Return: return value
 */
 
