@@ -6,17 +6,15 @@
 * print_line - main function
 *
 * @n: The variable
-*
+*i
 * Return: return value
 */
 
 void print_line(int n)
 {
 if (n <= 0)
-{
 _putchar('\n');
 return;
-}
 _putchar('_');
 print_line(n-1);
 }
