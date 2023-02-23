@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
-* _isupper - main function
+* _isdigit - main function
 * @c: print value
 *
 * Return: return value
 */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-if (c >= 'A' && c <= 'Z')
-return (1);
+if (c >= '0' && c <= '9')
+return 1;
 else
 {
 return (0);
