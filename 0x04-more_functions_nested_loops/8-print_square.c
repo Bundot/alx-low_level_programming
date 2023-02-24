@@ -5,8 +5,6 @@
 /**
 * print_square - main function
 * size: variable
-*
-* Return: return value
 */
 
 void print_square(int size)
