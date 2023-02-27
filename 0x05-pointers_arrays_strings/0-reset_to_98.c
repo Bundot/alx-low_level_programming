@@ -4,7 +4,7 @@
 
 /**
 * reset_to_98 - main function
-* @*n: variable
+* @n: variable
 *
 * Return: return value
 */
