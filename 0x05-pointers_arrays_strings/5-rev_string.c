@@ -10,11 +10,11 @@
 * Return: return value
 */
 
-
 void rev_string(char *s)
 {
 char *end;
-if (s == NULL) return;
+if (s == NULL)
+return;
 end = s + strlen(s) - 1;
 while (s < end)
 {
