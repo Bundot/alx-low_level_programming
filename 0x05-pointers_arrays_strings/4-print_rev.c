@@ -10,17 +10,14 @@
 * Return: return value
 */
 
-void print_rev(char *s)
+void print_rev(char *s) {
+if (*s != '\0')
 {
-if (*s == '\0')
-{
-return;
-}
 print_rev(s + 1);
 _putchar(*s);
-if (*(s + 1) == '\0')
+}
+else
 {
-return;
 _putchar('\n');
 }
 }
