@@ -10,14 +10,15 @@
 * Return: return value
 */
 
-void puts_half(char *str){
+void puts_half(char *str)
+{
 size_t len;
 size_t offset;
 if (str == NULL)
 return;
 len = strlen(str);
 offset = (len + 1) / 2;
- while (offset < len)
+while (offset < len)
 {
 _putchar(str[offset]);
 offset++;
