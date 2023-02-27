@@ -15,5 +15,5 @@ char *_strcpy(char *dest, char *src)
 {
 if (dest == NULL || src == NULL)
 return (NULL);
-return strncpy(dest, src, strlen(src) + 1);
+return (strncpy(dest, src, strlen(src) + 1));
 }
