@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+#include <string.h>
 
 /**
 * print_rev - main function
@@ -19,7 +20,6 @@ print_rev(s + 1);
 _putchar(*s);
 if (*(s + 1) == '\0')
 {
-_putchar('\n');
+return;
 }
 }
-
