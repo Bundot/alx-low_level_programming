@@ -21,5 +21,6 @@ _putchar(*s);
 if (*(s + 1) == '\0')
 {
 return;
+_putchar('\n');
 }
 }
