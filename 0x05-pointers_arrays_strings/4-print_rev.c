@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#include <string.h>
 
 /**
 * print_rev - main function
@@ -10,15 +9,17 @@
 * Return: return value
 */
 
-void print_rev(char *s) {
-if (*s != '\0')
+void print_rev(char *s)
 {
-print_rev(s + 1);
-_putchar(*s);
-}
-else
+if (*s == '\0')
 {
 return;
-_putchar('\n');
+}
+print_rev(s + 1);
+putchar(*s);
+if (*(s + 1) == '\0')
+{
+putchar('\n');
+return;
 }
 }
