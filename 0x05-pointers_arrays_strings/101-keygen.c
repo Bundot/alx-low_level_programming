@@ -14,8 +14,9 @@
 void generate_password(char *password)
 {
 int putchar();
+int i;
 srand(time(NULL));
-int i = 0;
+i = 0;
 while (i < PASSWORD_LENGTH)
 {
 password[i++] = 'A' + rand() % 26;
