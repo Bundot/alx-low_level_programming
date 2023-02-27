@@ -4,7 +4,7 @@
 
 /**
 * _puts - main function
-* str: variable
+* @str: variable
 *
 * Return: return value
 */
