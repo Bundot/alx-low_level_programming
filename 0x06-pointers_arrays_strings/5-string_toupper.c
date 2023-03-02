@@ -9,7 +9,8 @@
  * Return: return value
  */
 
-char *string_toupper(char *str) {
+char *string_toupper(char *str)
+{
 char *a = str;
 while (*a)
 {
