@@ -17,7 +17,9 @@ int dest_len = strlen(dest);
 char *dest_end = dest + dest_len;
 char *src_end = src + strnlen(src, n);
 while (src < src_end)
+{
 *dest_end++ = *src++;
+}
 *dest_end = '\0';
 return (dest);
 }
