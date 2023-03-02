@@ -11,13 +11,12 @@
 
 char *rot13(char *str)
 {
-char *p = str;
-while (*p) {
-if ((*p >= 'A' && *p <= 'M') || (*p >= 'a' && *p <= 'm'))
-*p += 13;
-else if ((*p >= 'N' && *p <= 'Z') || (*p >= 'n' && *p <= 'z'))
-*p -= 13;
-p++;
+char *s = str;
+while (*s != '\0')
+{
+int delta = (*s >= 'a' && *s <= 'z') ? 13 : (*s >= 'A' && *s <= 'Z') ? 13 : 0;
+*s = (*s >= 'a' && *s <= 'z') ? ((*s - 'a' + delta) % 26) + 'a' : (*s >= 'A' && *s <= 'Z') ? ((*s - 'A' + delta) % 26) + 'A' : *s;
+s++;
 }
 return (str);
 }
