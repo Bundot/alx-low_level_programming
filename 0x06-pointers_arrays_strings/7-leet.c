@@ -21,10 +21,7 @@ i = 0;
 while (leet_chars[i])
 {
 if (*ptr == leet_chars[i])
-{
 *ptr = leet_nums[i];
-break;
-}
 i++;
 }
 ptr++;
