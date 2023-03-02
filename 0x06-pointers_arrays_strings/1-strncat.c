@@ -9,7 +9,7 @@
  * @n - variable
  *
  * Return: return function
-*/
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
